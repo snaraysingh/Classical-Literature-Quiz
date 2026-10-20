@@ -37,24 +37,46 @@
            </td>
           </tr>
                
-          <tr align="center">
-            <td width="50%"><div align="center"><center><p>
-                <br>
-                <strong><font color="#96707E">Feedback:</font></strong><input
-          type="text" name="thesolution" size="35"> </p></center></div></td>
+         
+        <!--YOUR ANSWER SECTION -->    
          </tr>
          <tr align="center">
-          <td width="100%"><div align="center"><center><p>
-              <br>
-              <strong><font color="#96707E">Your Answer:</font></strong></p></center></div>
-         <select
-         name="theresponse" size="1" onChange="responses()">
-            <option value="-----">----</option>
-            <option value="a">a</option>
-            <option value="b">b</option>
-            <option value="c">c</option>
-            <option value="d">d</option>
-          </select> 
+          <td width="100%"><div align="center">
+              <center>
+                  <p>
+                    <br>
+                      <strong>
+                          <font color="#96707E">Your Answer:</font>
+                      </strong>
+                        <select name="theresponse" size="1" onChange="responses()">
+                            <option value="-----">----</option>
+                            <option value="a">a</option>
+                            <option value="b">b</option>
+                            <option value="c">c</option>
+                            <option value="d">d</option>
+                      </select> 
+                      </p>
+                  </center>
+               </div>
+         </td>
+    </tr>
+
+             <!-- FEEDBACK SECTION -->
+                 <tr align="center">
+            <td width="50%"><div align="center">
+                <center>
+                    <p>
+                        <br>
+                        <strong>
+                            <font color="#96707E">Feedback:</font>
+                        </strong>
+                            <input type="text" name="thesolution" size="35"> 
+                    </p>
+                </center>
+            </div>
+        </td>
+    </tr>
+                 
         <input type="button" value="&lt;&lt;Back" name="B1"
           onClick="if (whichone&gt;1){whichone--;generatequestions()}"> <input type="button"
           value="Next&gt;&gt;" name="B2"
